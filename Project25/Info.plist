@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Please allow local network usage.</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_hws-project25._tcp</string>
+		<string></string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
