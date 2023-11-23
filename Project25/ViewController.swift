@@ -8,11 +8,13 @@ import MultipeerConnectivity
 import UIKit
 
 class ViewController: UICollectionViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate, MCSessionDelegate, MCBrowserViewControllerDelegate {
+        
     var images = [UIImage]()
     
     var peerID = MCPeerID(displayName: UIDevice.current.name)
     var mcSession: MCSession?
     var mcAdvertiserAssistant: MCAdvertiserAssistant?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +26,7 @@ class ViewController: UICollectionViewController,UINavigationControllerDelegate,
         
         //peerID = MCPeerID(displayName: UIDevice.current.name)
         mcSession = MCSession(peer: peerID, securityIdentity: nil,encryptionPreference: .required)
-        
+        //mcSession = MCSession(peer: peerID, securityIdentity: nil, encryptionPreference: .none)
         mcSession?.delegate = self
     }
     

@@ -2,6 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Please allow Bluetooth</string>
+	<key>NSBluetoothServices</key>
+	<array>
+		<string>Please allow bluetooth service</string>
+	</array>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleExecutable</key>
@@ -13,7 +21,7 @@
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_hws-project25._tcp</string>
-		<string></string>
+		<string>_hws-project25._udp</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
