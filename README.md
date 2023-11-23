@@ -4,15 +4,15 @@ Written by [Paul Hudson](https://www.hackingwithswift.com/about)  ![twitter16](h
 
 **Description:** Make a multipeer photo sharing app in just 150 lines of code.
 
-Setting up
+- Setting up
 
-Importing photos again
+- Importing photos again
 
-Going peer to peer: `MCSession`, `MCBrowserViewController`
+- Going peer to peer: `MCSession`, `MCBrowserViewController`
 
-Invitation only: `MCPeerID`
+- Invitation only: `MCPeerID`
 
-Wrap up
+- Wrap up
   
 ## [Review what you learned](https://www.hackingwithswift.com/review/hws/project-25-selfie-share)
 
